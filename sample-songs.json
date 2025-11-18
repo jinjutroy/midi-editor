@@ -1,0 +1,196 @@
+{
+  "songs": [
+    {
+      "id": "sample-rock-beat-001",
+      "name": "Rock Beat 120 BPM",
+      "description": "Simple rock drum pattern",
+      "duration": 30,
+      "trackLabels": [
+        "Kick",
+        "Snare",
+        "Hi-Hat",
+        "Crash",
+        "Ride",
+        "Tom 1",
+        "Tom 2",
+        "Tambourine"
+      ],
+      "tags": ["rock", "drums", "120bpm"],
+      "notes": [
+        {
+          "id": "note-001",
+          "track": 1,
+          "time": 0,
+          "title": "Kick",
+          "description": "Main kick drum hit",
+          "color": "#EF4444",
+          "icon": "🥁",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-002",
+          "track": 2,
+          "time": 1,
+          "title": "Snare",
+          "description": "Backbeat snare",
+          "color": "#3B82F6",
+          "icon": "🎵",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-003",
+          "track": 1,
+          "time": 2,
+          "title": "Kick",
+          "description": "Follow-up kick",
+          "color": "#EF4444",
+          "icon": "🥁",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-004",
+          "track": 3,
+          "time": 0.5,
+          "title": "Hi-Hat",
+          "description": "Closed hi-hat",
+          "color": "#10B981",
+          "icon": "✨",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-005",
+          "track": 3,
+          "time": 1.5,
+          "title": "Hi-Hat",
+          "description": "Closed hi-hat",
+          "color": "#10B981",
+          "icon": "✨",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-006",
+          "track": 3,
+          "time": 2.5,
+          "title": "Hi-Hat",
+          "description": "Closed hi-hat",
+          "color": "#10B981",
+          "icon": "✨",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-007",
+          "track": 2,
+          "time": 3,
+          "title": "Snare",
+          "description": "Backbeat snare",
+          "color": "#3B82F6",
+          "icon": "🎵",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        }
+      ],
+      "createdAt": "2025-11-17T00:00:00.000Z",
+      "updatedAt": "2025-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "sample-electronic-001",
+      "name": "Electronic Groove",
+      "description": "Synth bassline with drums",
+      "duration": 180,
+      "trackLabels": [
+        "Lead Synth",
+        "Bass",
+        "Kick",
+        "Snare",
+        "Hi-Hat",
+        "Pad",
+        "Arp",
+        "FX"
+      ],
+      "tags": ["electronic", "synth", "bass"],
+      "notes": [
+        {
+          "id": "note-101",
+          "track": 3,
+          "time": 0,
+          "title": "Kick",
+          "description": "Four on the floor kick",
+          "color": "#EF4444",
+          "icon": "💥",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-102",
+          "track": 2,
+          "time": 0.5,
+          "title": "Bass C",
+          "description": "Root note",
+          "color": "#8B5CF6",
+          "icon": "🎸",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-103",
+          "track": 1,
+          "time": 2,
+          "title": "Lead",
+          "description": "Melody line",
+          "color": "#06B6D4",
+          "icon": "🎹",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-104",
+          "track": 3,
+          "time": 4,
+          "title": "Kick",
+          "description": "Four on the floor kick",
+          "color": "#EF4444",
+          "icon": "💥",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-105",
+          "track": 4,
+          "time": 6,
+          "title": "Snare",
+          "description": "Clap layer",
+          "color": "#F59E0B",
+          "icon": "👏",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-106",
+          "track": 5,
+          "time": 1,
+          "title": "Hi-Hat",
+          "description": "Eighth note pattern",
+          "color": "#10B981",
+          "icon": "✨",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-107",
+          "track": 6,
+          "time": 8,
+          "title": "Pad",
+          "description": "Atmospheric pad",
+          "color": "#EC4899",
+          "icon": "🌊",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        },
+        {
+          "id": "note-108",
+          "track": 7,
+          "time": 3,
+          "title": "Arp",
+          "description": "Synth arpeggio",
+          "color": "#14B8A6",
+          "icon": "⚡",
+          "createdAt": "2025-11-17T00:00:00.000Z"
+        }
+      ],
+      "createdAt": "2025-11-17T00:00:00.000Z",
+      "updatedAt": "2025-11-17T00:00:00.000Z"
+    }
+  ]
+}
