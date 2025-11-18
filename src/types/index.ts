@@ -76,6 +76,9 @@ export interface SongCardProps {
   isActive: boolean;
   onSelect: (song: Song) => void;
   onDelete: (songId: string) => void;
+  isSelected?: boolean;
+  onToggleSelect?: (songId: string) => void;
+  selectionMode?: boolean;
 }
 
 export interface SongFormProps {
