@@ -14,14 +14,14 @@ const SongList = React.memo<SongListProps>(({ onSelectSong, onCreateNew }) => {
   };
 
   return (
-    <div className="p-4 sm:p-6 lg:p-8 max-w-[1920px] mx-auto w-full">
+    <div className="p-4 sm:p-6 lg:p-8 max-w-[1920px] mx-auto w-full overflow-y-auto">
       <div className="flex flex-col gap-3 mb-6 sm:flex-row sm:items-center sm:justify-between sm:mb-8">
         <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">
           Your Songs
         </h2>
         <button
           onClick={onCreateNew}
-          className="btn btn-primary w-full sm:w-auto"
+          className="w-full btn btn-primary sm:w-auto"
         >
           + New Song
         </button>

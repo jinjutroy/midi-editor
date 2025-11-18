@@ -56,7 +56,10 @@ function App() {
       {/* Header */}
       <header className="flex flex-col gap-3 px-4 py-4 text-white shadow-lg bg-linear-to-r from-purple-light to-purple-dark sm:flex-row sm:items-center sm:justify-between sm:px-8 sm:py-5 shrink-0">
         <div className="flex-1">
-          <h1 className="flex items-center gap-2 m-0 text-xl font-bold sm:text-2xl lg:text-3xl">
+          <h1
+            className="flex items-center gap-2 m-0 text-xl font-bold transition-opacity cursor-pointer sm:text-2xl lg:text-3xl hover:opacity-80"
+            onClick={handleBackToList}
+          >
             🎹 MIDI Editor
           </h1>
           <p className="m-0 mt-1 text-xs opacity-90 sm:text-sm">

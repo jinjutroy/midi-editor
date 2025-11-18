@@ -72,20 +72,15 @@ const ExportImport = React.memo(() => {
   };
 
   return (
-    <div className="flex gap-2 items-center sm:gap-3">
+    <div className="flex items-center gap-2 sm:gap-3">
       <button
         onClick={handleExport}
         disabled={isProcessing}
-        className="btn btn-primary text-sm sm:text-base"
+        className="text-sm btn btn-primary sm:text-base"
         title="Export all data"
       >
-        {isProcessing ? (
-          <LoadingSpinner size="sm" />
-        ) : (
-          <>
-            💾 <span className="hidden sm:inline">Export</span>
-          </>
-        )}
+        {isProcessing ? <LoadingSpinner size="sm" /> : "💾"}{" "}
+        <span className="hidden sm:inline">Export</span>
       </button>
       <label
         className={`btn btn-secondary cursor-pointer inline-flex items-center justify-center text-sm sm:text-base ${
@@ -94,13 +89,8 @@ const ExportImport = React.memo(() => {
         onClick={isProcessing ? undefined : triggerFileInput}
         title="Import data from file"
       >
-        {isProcessing ? (
-          <LoadingSpinner size="sm" />
-        ) : (
-          <>
-            📁 <span className="hidden sm:inline">Import</span>
-          </>
-        )}
+        {isProcessing ? <LoadingSpinner size="sm" /> : "📁"}{" "}
+        <span className="hidden sm:inline">Import</span>
       </label>
       <input
         ref={fileInputRef}
@@ -117,7 +107,7 @@ const ExportImport = React.memo(() => {
         title={modalTitle}
       >
         <div className="p-8">
-          <p className="text-gray-700 text-base mb-6">{modalMessage}</p>
+          <p className="mb-6 text-base text-gray-700">{modalMessage}</p>
           <div className="flex justify-end">
             <button
               onClick={() => setShowModal(false)}
