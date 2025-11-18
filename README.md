@@ -274,5 +274,4 @@ If data is lost:
 - **Add emoji icons** for quick visual identification
 
 ---
-
-Built with ❤️ using React and modern web technologies.
+ 
